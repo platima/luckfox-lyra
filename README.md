@@ -33,7 +33,8 @@ These are built from the downloads available at the time, and have matching file
 
 To verify your download after extraction:
 ```bash
-sha256sum -c Luckfox_Lyra_MicroSD_241230.img.sha256```
+sha256sum -c Luckfox_Lyra_MicroSD_241230.img.sha256
+```
 
 ## Image Details
 
@@ -43,7 +44,8 @@ sha256sum -c Luckfox_Lyra_MicroSD_241230.img.sha256```
 ## Flashing Instructions
 ### Linux/macOS
 ```bunzip2 Luckfox_Lyra_MicroSD_241230.img.bz2
-sudo dd if=Luckfox_Lyra_MicroSD_241230.img of=/dev/sdX bs=4M status=progress```
+sudo dd if=Luckfox_Lyra_MicroSD_241230.img of=/dev/sdX bs=4M status=progress
+```
 
 Replace /dev/sdX with your SD card device (can be found using lsblk command).
 
